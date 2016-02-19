@@ -13,3 +13,17 @@ git push            - Send changes to remote repository
 -----------------------
 
 git checkout -b new_branch_name         - create new branch (local)
+
+git commit -am "commit comment"         - will commit all changes on tracked files, but it doesn't add new files.
+
+touch sometext.txt          - new file for test
+
+git add sometext.txt
+
+git commit -m "added file"
+
+git branch          - list of branches
+
+git checkout master              - back to main brach
+
+git merge new_branch
