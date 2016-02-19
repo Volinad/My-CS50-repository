@@ -1,4 +1,15 @@
-git status
+Git commands from https://www.youtube.com/watch?v=71WzH4inmkg
+
+git status          - List the files you've changed and those you still need to add or commit:
+
 git add Git_commands.txt
-git commit -m "My first git commit. Text file with git commands"  
-git pull
+
+git commit -m "My first git commit. Text file with git commands"            - commit to local repository
+
+git pull            - Fetch and merge changes on the remote server to your working directory
+
+git push            - Send changes to remote repository
+
+-----------------------
+
+git checkout -b new_branch_name         - create new branch (local)
