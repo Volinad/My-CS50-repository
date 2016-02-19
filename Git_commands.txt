@@ -1,3 +1,4 @@
 git status
 git add Git_commands.txt
 git commit -m "My first git commit. Text file with git commands"  
+git pull
